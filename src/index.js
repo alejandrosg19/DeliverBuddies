@@ -11,7 +11,7 @@ const app = express();
 const flash = require('connect-flash');
 //passport
 const MySQLStore = require('express-mysql-session');
-const passport = require('passport');
+const passport = require('passport'); 
 /*
  * Acá requerimos los parámetros necesarios para conectarnos
  * a la base de datos
